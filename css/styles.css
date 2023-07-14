@@ -72,3 +72,38 @@ body {
 .link {
     text-decoration: none;
 }
+/* Main content */
+.main-title {
+    background: var(--navyblue);
+}
+.main-text {
+    color: var(--white);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+        line-height: 1.07
+}
+.main-button {
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.64px;
+        line-height: 1.5
+}
+.main-button:hover {
+    color: #404bbf;
+}
+.main-button:focus {
+    color: #404bbf;
+}
