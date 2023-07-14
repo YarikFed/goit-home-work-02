@@ -90,7 +90,7 @@ body {
 .main-button {
     cursor: pointer;
     border-radius: 4px;
-    background: var(--iris);
+    background-color: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--white);
         font-family: Roboto;
