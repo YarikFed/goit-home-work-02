@@ -95,7 +95,7 @@ body {
         line-height: 24px;
         letter-spacing: 0.64px;
         line-height: 1.5;
-        background-color: var(--cornflower);
+        background-color: #F4F4FD;
 }
 .button-list:hover {
     color: #FFFFFF;
