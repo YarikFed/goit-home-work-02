@@ -5,6 +5,8 @@
     --white: #FFF;
     --cloud: #F4F4FD;
     --cornflower: #E7E9FC;
+    --ocean: #404bbf;
+    --cornflower: #E7E9FC;
 }
 
 /* Boty */
@@ -80,4 +82,46 @@ body {
 
 .link {
     text-decoration: none;
+}
+/* Main content */
+.button-list {
+    cursor: pointer;
+    color: var(--iris);
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.64px;
+        line-height: 1.5;
+        background-color: var(--cornflower);
+}
+.button-list:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.button-list:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.list-title {
+    color: var(--navyblue);
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        line-height: 1.2;
+}
+.list-description {
+    color: var(--anthracite);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        line-height: 1.5;
 }
