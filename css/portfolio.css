@@ -1,4 +1,13 @@
-
+:root {
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --anthracite: #434455;
+    --white: #FFF;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+    --ocean: #404bbf;
+    --cornflower: #E7E9FC;
+}
 /* Boty */
 body {
     font-family: "Roboto", sans-serif;
@@ -152,14 +161,4 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
     line-height: 1.5;
-}
-:root {
-    --iris: #4D5AE5;
-    --navyblue: #2E2F42;
-    --anthracite: #434455;
-    --white: #FFF;
-    --cloud: #F4F4FD;
-    --cornflower: #E7E9FC;
-    --ocean: #404bbf;
-    --cornflower: #E7E9FC;
 }
