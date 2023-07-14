@@ -89,9 +89,7 @@ body {
 }
 .main-button {
     cursor: pointer;
-    border-radius: 4px;
     background-color: var(--iris);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--white);
         font-family:"Roboto", sans-serif;
         font-size: 16px;
@@ -101,10 +99,10 @@ body {
         letter-spacing: 0.64px;
         line-height: 1.5;
 }
-.main-button:hover {
+button:hover {
     color: #404BBF;
 }
-.main-button:focus {
+button:focus {
     color: #404BBF;
 }
 .list-title {
@@ -167,16 +165,14 @@ body {
         line-height: 1.2;
 }
 .team-members {
-    border-radius: 0px 0px 4px 4px;
         background-color: var(--white);
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .footer {
     background: var(--navyblue);
 }
 .footer-logo {
     color: var(--iris);
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
