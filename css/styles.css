@@ -43,10 +43,16 @@ body {
         line-height: 1.5;
         text-decoration: none;
 }
-.list:hover .link:hover  {
+.list:hover {
     color: #404bbf;
 }
-.list:focus .link:focus {
+.list:focus {
+    color: #404bbf;
+}
+.link:hover {
+    color: #404bbf;
+}
+.link:focus {
     color: #404bbf;
 }
 .address {
