@@ -7,11 +7,13 @@
     --cornflower: #E7E9FC;
 
 }
+/* Boty */
 body {
     font-family: "Roboto",sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
+/* Header */
 .logo {
     color: var(--iris);
         font-family: "Raleway",sans-serif;
@@ -41,8 +43,14 @@ body {
         line-height: 1.5;
         text-decoration: none;
 }
-.link:hover .link:focus {
+.list:hover .link:hover  {
     color: #404bbf;
+}
+.list:focus .link:focus {
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
 }
 .list {
     color: var(--anthracite);
@@ -57,7 +65,4 @@ body {
 }
 .link {
     text-decoration: none;
-}
-.list:hover .list:focus {
-    color: #404bbf;
 }
