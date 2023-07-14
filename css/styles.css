@@ -139,3 +139,30 @@ body {
         text-transform: capitalize;
         line-height: 1.11;
 }
+/* Team */
+.team {
+    background: var(--cloud);
+}
+.team-text {
+    color: var(--navyblue);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        line-height: 1.2;
+}
+.member-name {
+    color: var(--navyblue);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        line-height: 1.5;
+}
