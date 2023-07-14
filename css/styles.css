@@ -55,3 +55,6 @@ body {
         line-height: 1.5;
         text-decoration: none;
 }
+.address .link:focus .link:hover {
+    color: #404bbf;
+}
