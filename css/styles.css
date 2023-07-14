@@ -1,7 +1,7 @@
 :root {
     --iris: #4D5AE5;
     --navyblue: #2E2F42;
-    --slate: #434455;
+    --anthracite: #434455;
     --white: #FFF;
     --cloud: #F4F4FD;
     --cornflower: #E7E9FC;
@@ -45,7 +45,7 @@ body {
     color: #404bbf;
 }
 .list {
-    color: var(--slate);
+    color: var(--anthracite);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -58,6 +58,6 @@ body {
 .link {
     text-decoration: none;
 }
-.list .link:hover .link:focus {
+.list:hover .list:focus {
     color: #404bbf;
-} 
+}
