@@ -1,26 +1,52 @@
-.header { border-bottom: 1px solid var(--cornflower); background: var(--white);
-width: 1440px; height: 72px; flex-shrink: 0; display: flex; align-items: center;
-} nav { display: flex; align-items: center; } .logo { color: var(--iris);
-font-size: 18px; font-weight: 800; line-height: 21px; letter-spacing: 0.54px;
-text-transform: uppercase; text-decoration: none; padding-left: 156px; }
-.logo-studio { font-size: 18px; font-weight: 800; line-height: 21px;
-letter-spacing: 0.54px; text-transform: uppercase; color: var(--navyblue); }
-.header-link { font-size: 16px; font-weight: 500; line-height: 24px;
-letter-spacing: 0.32px; color: var(--navyblue); list-style-type: none;
-text-decoration: none; display: flex; gap: 40px; padding-right: 332px; }
-.address { display: flex; list-style-type: none; color: var(--slate, #434455);
-font-size: 16px; font-weight: 400; line-height: 24px; letter-spacing: 0.32px;
-text-decoration: none; gap: 40px; } .main-title { background: var(--navyblue);
-width: 1440px; height: 600px; flex-shrink: 0; margin-bottom: 120px; } .main-text
-{ color: var(--white); text-align: center; font-size: 56px; font-weight: 700;
-line-height: 60px; letter-spacing: 1.12px; padding-left: 472px; padding-top:
-188px; width: 496px; } .main-button { display: inline-flex; padding: 16px 32px;
-align-items: flex-start; gap: 10px; border-radius: 4px; background: var(--iris);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); color: var(--white); font-size:
-16px; font-weight: 500; line-height: 24px; letter-spacing: 0.64px; position:
-absolute; left: 636px; } .section-list { list-style-type: none; display: flex;
-align-items: center; gap: 24px; padding-left: 156px; padding-right: 156px; }
-.list-title { color: var(--navyblue); font-size: 20px; font-weight: 500;
-line-height: 24px; letter-spacing: 0.4px; } .list-description { color:
-var(--slate); font-size: 16px; font-weight: 400; line-height: 24px;
-letter-spacing: 0.32px; }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles-portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header">
+      <nav>
+        <!-- Logo -->
+        <a class="logo link" href="./index.html"
+          >Web<span class="logo-studio">Studio</span></a
+        >
+        <!-- Links -->
+        <ul class="list">
+          <li><a href="./index.html" class="list-item link">Studio</a></li>
+          <li>
+            <a href="./portfolio.html" class="list-item link">Portfolio</a>
+          </li>
+          <li><a href="" class="list-item link">Contacts</a></li>
+        </ul>
+      </nav>
+      <!-- Address -->
+      <address class="address">
+        <ul class="list">
+          <li>
+            <a class="list link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="list link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <!-- Main content -->
+      <main></main>
+      <footer></footer>
+    </header>
+  </body>
+</html>

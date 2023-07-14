@@ -5,7 +5,6 @@
     --white: #FFF;
     --cloud: #F4F4FD;
     --cornflower: #E7E9FC;
-
 }
 /* Boty */
 body {
@@ -99,11 +98,11 @@ body {
         letter-spacing: 0.64px;
         line-height: 1.5;
 }
-button:hover {
-    color: #404BBF;
+.main-button:hover {
+    background-color: #404BBF;
 }
-button:focus {
-    color: #404BBF;
+.main-button:focus {
+    background-color: #404BBF;
 }
 .list-title {
     color: var(--navyblue);
