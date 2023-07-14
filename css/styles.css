@@ -14,7 +14,7 @@ body {
 }
 .logo {
     color: var(--iris);
-        font-family: Raleway;
+        font-family: "Raleway",sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
@@ -22,7 +22,7 @@ body {
         letter-spacing: 0.54px;
         text-transform: uppercase;
         line-height: 1.17;
-        text-decoration: none
+        text-decoration: none;
 }
 .logo-studio {
     color: var(--navyblue);
@@ -39,6 +39,10 @@ body {
         line-height: 24px;
         letter-spacing: 0.32px;
         line-height: 1.5;
+        text-decoration: none;
+}
+.link:hover .link:focus {
+    color: #404bbf;
 }
 .address {
     color: var(--slate);
@@ -49,5 +53,5 @@ body {
         line-height: 24px;
         letter-spacing: 0.32px;
         line-height: 1.5;
-        text-decoration: none
+        text-decoration: none;
 }
