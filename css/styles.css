@@ -12,3 +12,31 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.logo {
+    color: var(--iris);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        line-height: 1.17;
+        text-decoration: none
+}
+.logo-studio {
+    color: var(--navyblue);
+}
+.list {
+    list-style-type: none;
+}
+.list-item {
+    color: var(--navyblue);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        line-height: 1.5
+}
